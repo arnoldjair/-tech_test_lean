@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "06c2e8bb-bebc-4787-a5c7-6af7957be07a",
+		"name": "leantech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "proxyUser",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "test",
+						"value": "Como las yucas",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/user-service/user/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user-service",
+						"user",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/user/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"user",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

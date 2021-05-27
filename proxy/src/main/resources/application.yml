@@ -1,0 +1,16 @@
+zuul:
+  routes:
+    user:
+      path: /user-service/**
+      url: http://localhost:8090/
+
+ribbon:
+    eureka:
+        enabled: false
+server:
+    port: 8080
+
+logging:
+  level:
+    root: info
+    com.leantech: info
